@@ -16,6 +16,6 @@ mkShell {
   ];
 
   shellHook = ''
-    NIX_PATH=nixpkgs=channel:nixos-18.09
+    NIX_PATH=nixpkgs=channel:nixos-22.05
   '';
 }
